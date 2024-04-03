@@ -9,18 +9,11 @@
 header {
     height: 50px;
     align-items: center;
-}
-
-header .left {
     
 }
 
 li {
     padding: 10px 20px;
-}
-
-header .right {
-
 }
 
 #inizia {
@@ -35,15 +28,46 @@ header .right {
 /* JUMBOTRON */
 
 .container {
+    padding: 50px 200px 0 200px;
+}
+
+.j-contenuto {
+    max-width: 1000px;
     height: 500px;
+    background-color: red;
+
+}
+
+.j-title {
+    max-width: 800px;
+    height: 100px;
+    background-color: blue;
+    margin: 50px 100px;
+}
+
+.j-subtitle {
     display: flex;
-    padding: 90px;
-    justify-content: center;
+    
 }
 
-.jumbocenter > h1 {
-
+.j-paragraph { 
+    width: 40%;
+    border: 1px solid black;
+    height: 100px;
+    background-color: yellow;
+    height: 300px;
 }
+
+.j-img {
+    width: 60%;
+    height: 100px;
+    background-color: yellow;
+    height: 300px;
+    border: 1px solid black;
+}
+
+
+
 
 /* SOTTO JUMBOTRON */
 
