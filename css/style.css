@@ -20,7 +20,14 @@ li {
 }
 
 header .right {
-    background-color: blue;
+
+}
+
+#inizia {
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 15px;
+    border: none;
 }
 
 /* UTILITY */
@@ -39,4 +46,8 @@ header .right {
 
 .nostyle {
     list-style: none;
+}
+
+.blue {
+    background-color: blue;
 }
