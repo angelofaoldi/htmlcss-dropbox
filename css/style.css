@@ -30,6 +30,87 @@ header .right {
     border: none;
 }
 
+/* MAIN */
+
+/* JUMBOTRON */
+
+.container {
+    height: 500px;
+    display: flex;
+    padding: 90px;
+    justify-content: center;
+}
+
+.jumbocenter > h1 {
+
+}
+
+/* SOTTO JUMBOTRON */
+
+.sottojumb {
+    height: 900px;
+    background-color: orange;
+}
+
+/* TROVA UN PARTNER */
+
+.partner {
+    height: 500px;
+    background-color: pink;
+}
+
+/* BUSINESS */
+
+.business {
+    height: 700px;
+    background-color: green;
+}
+
+/* SOTTO BUSINESS */
+
+.sottobusiness {
+    height: 350px;
+    background-color: darkviolet;
+}
+
+/* DESIGNIT */
+
+.designit {
+    height: 350px;
+    background-color: yellow;
+}
+
+/* PROVA GRATUITA */
+
+.provagratuita {
+    height: 250px;
+    background-color: rgb(60, 194, 194);
+}
+
+/* DOMANDE FREQUENTI */
+
+.faq {
+    height: 400px;
+    background-color: rgb(200, 56, 48);
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.f-top {
+    height: 250px;
+}
+
+.f-bottom {
+    height: 150px;
+}
+
+/*___________________________________________*/
+
 /* UTILITY */
 
 .flex {
@@ -48,6 +129,6 @@ header .right {
     list-style: none;
 }
 
-.blue {
-    background-color: blue;
+.azure {
+    background-color: #b4d0e7;
 }
