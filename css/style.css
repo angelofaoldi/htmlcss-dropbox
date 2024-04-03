@@ -4,3 +4,39 @@
     box-sizing: border-box;
 }
 
+/* HEADER */
+
+header {
+    height: 50px;
+    align-items: center;
+}
+
+header .left {
+    
+}
+
+li {
+    padding: 10px 20px;
+}
+
+header .right {
+    background-color: blue;
+}
+
+/* UTILITY */
+
+.flex {
+    display: flex;
+}
+
+.spacebtw {
+    justify-content: space-between;
+}
+
+.aligncenter {
+    align-items: center;
+}
+
+.nostyle {
+    list-style: none;
+}
