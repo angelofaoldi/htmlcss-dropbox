@@ -32,7 +32,7 @@ li {
 
 /* JUMBOTRON */
 
-.container {
+.jumbotron {
     max-width: 1200px;
     margin: 20px auto;
     background-color: #b4d0e7;
@@ -45,42 +45,30 @@ li {
 }
 
 .col-10 {
-    
+    height: 50px;
 }
 
 .j.title {
     text-align: center;
-    padding: 0px 0;
 }
 
-
-
-.j-contenuto {
-    
-    
-
+.j-container {
+    width: 500px;
 }
 
-.j-subtitle {
-    display: flex;
-    max-width: 800px;
-    margin: 0 auto;
-    
+.j-row {
+   display: flex; 
 }
 
-.j-paragraph { 
-    width: 40%;
+.col-30 {
     border: 1px solid black;
     height: 100px;
     background-color: yellow;
-    height: 300px;
 }
 
-.j-img {
-    width: 60%;
+.col-70 {
     height: 100px;
     background-color: yellow;
-    height: 300px;
     border: 1px solid black;
 }
 
