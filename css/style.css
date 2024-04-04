@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
+body {
+    max-width: 1200px;
+}
+
 /* HEADER */
 
 header {
     height: 50px;
     align-items: center;
+    background-color: red;
     
 }
 
@@ -28,25 +33,38 @@ li {
 /* JUMBOTRON */
 
 .container {
-    padding: 50px 200px 0 200px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #b4d0e7;
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-10 {
+    
+}
+
+.j.title {
+    text-align: center;
+    padding: 0px 0;
+}
+
+
 
 .j-contenuto {
-    max-width: 1000px;
-    height: 500px;
-    background-color: red;
+    
+    
 
-}
-
-.j-title {
-    max-width: 800px;
-    height: 100px;
-    background-color: blue;
-    margin: 50px 100px;
 }
 
 .j-subtitle {
     display: flex;
+    max-width: 800px;
+    margin: 0 auto;
     
 }
 
@@ -66,21 +84,48 @@ li {
     border: 1px solid black;
 }
 
-
-
-
 /* SOTTO JUMBOTRON */
 
 .sottojumb {
-    height: 900px;
     background-color: orange;
 }
+
+.sj-container {
+    max-width: 700px;
+    margin: 0 auto;
+    height: 800px;
+    background-color: brown;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* TROVA UN PARTNER */
 
 .partner {
-    height: 500px;
     background-color: pink;
+}
+
+.p-contenuto  {
+    height: 200px;
+    width: 800px;
+    background-color: darkolivegreen;
+}
+
+#partner {
+    width: 100%;
 }
 
 /* BUSINESS */
@@ -156,3 +201,13 @@ footer {
 .azure {
     background-color: #b4d0e7;
 }
+
+.m-0auto {
+    margin: 0 auto;
+}
+
+.h100 {
+    height: 100px;
+}
+
+.col
