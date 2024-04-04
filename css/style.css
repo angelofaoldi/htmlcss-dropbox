@@ -13,7 +13,6 @@ body {
 header {
     height: 50px;
     align-items: center;
-    background-color: red;
     
 }
 
@@ -52,8 +51,18 @@ li {
     text-align: center;
 }
 
+/* 
+Layout Jumbotron:
+1. Definizione di un contenitore
+2. mi servono nel contenitore due colonne (div) che
+   devono essere affincati (ci serve flex)
+3. row per il flex
+4. gestione delle colonne left e right con delle larghezze
+in base alla grafica (sx 30% e dx 70%)
+*/
 .j-container {
-    width: 500px;
+    width: 700px;
+    margin: 0 auto;
 }
 
 .j-row {
@@ -61,12 +70,14 @@ li {
 }
 
 .col-30 {
+    width: 30%;
     border: 1px solid black;
     height: 100px;
     background-color: yellow;
 }
 
 .col-70 {
+    width: 70%;
     height: 100px;
     background-color: yellow;
     border: 1px solid black;
@@ -75,17 +86,32 @@ li {
 /* SOTTO JUMBOTRON */
 
 .sottojumb {
-    background-color: orange;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .sj-container {
     max-width: 700px;
     margin: 0 auto;
     height: 800px;
-    background-color: brown;
-
+    
 }
 
+.spanradio {
+    margin-top: 20px;
+}
+
+#row-sj {
+    padding: 50px 0;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+    background-color: yellow;
+    text-align: center;
+    height: 300px;
+    border: 1px solid black;
+}
 
 
 
@@ -198,4 +224,4 @@ footer {
     height: 100px;
 }
 
-.col
+.col {}
