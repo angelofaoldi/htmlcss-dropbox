@@ -116,9 +116,9 @@ in base alla grafica (sx 30% e dx 70%)
 
 .sj-container {
     max-width: 700px;
-    margin: 0 auto;
+    margin: 70px auto 0 auto;
     height: 800px;
-    
+
 }
 
 .spanradio {
@@ -132,10 +132,39 @@ in base alla grafica (sx 30% e dx 70%)
 .col-33 {
     width: calc(100% / 3);
     background-color: yellow;
-    text-align: center;
-    height: 300px;
-    border: 1px solid black;
+    
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
+
+.content-col33 {
+    padding-left: 10px;
+}
+
+.title-33 {
+    margin-bottom: 20px;
+}
+
+.maxtitle-33 {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.info-33 {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .col-100 {
     background-color: yellow;
@@ -239,6 +268,10 @@ footer {
     align-items: center;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .nostyle {
     list-style: none;
 }
@@ -249,6 +282,10 @@ footer {
 
 .m-0auto {
     margin: 0 auto;
+}
+
+.m-bottom20 {
+    margin-bottom: 20px;
 }
 
 .h100 {
