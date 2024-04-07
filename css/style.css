@@ -107,7 +107,7 @@ in base alla grafica (sx 30% e dx 70%)
     width: 100%;
 }
 
-/* SOTTO JUMBOTRON */
+/* ------ SOTTO JUMBOTRON ------ */
 
 .sottojumb {
     max-width: 1200px;
@@ -118,7 +118,6 @@ in base alla grafica (sx 30% e dx 70%)
     max-width: 700px;
     margin: 70px auto 0 auto;
     height: 800px;
-
 }
 
 .spanradio {
@@ -126,18 +125,17 @@ in base alla grafica (sx 30% e dx 70%)
 }
 
 #row-sj {
-    padding: 50px 0;
+    padding: 50px 50px;
+    gap: 20px;
 }
 
 .col-33 {
     width: calc(100% / 3);
-    background-color: yellow;
-    
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .content-col33 {
-    padding-left: 10px;
+    padding: 20px 30px;
 }
 
 .title-33 {
@@ -154,6 +152,22 @@ in base alla grafica (sx 30% e dx 70%)
     margin-bottom: 20px;
 }
 
+.button-prova > button {
+    background-color: #0061ff;
+    border-style: none;
+    font-size: 10px;
+    color: white;
+    padding: 5px;
+}
+
+.little-line {
+    margin-right: 90px;
+}
+
+.p-salienti {
+    line-height: 25px;
+    padding-top: 10px;
+}
 
 
 
