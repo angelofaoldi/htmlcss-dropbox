@@ -122,7 +122,16 @@ in base alla grafica (sx 30% e dx 70%)
 
 .spanradio {
     margin-top: 20px;
+    margin-left: 50px;
 }
+
+.pianobusiness {
+    margin-bottom: 20px;
+}
+
+/* COLONNA 1: SINGOLO */
+/* alcune regole qui vengono copiate ed 
+incollate anche per le altre colonne*/
 
 #row-sj {
     padding: 50px 50px;
@@ -148,8 +157,11 @@ in base alla grafica (sx 30% e dx 70%)
 }
 
 .info-33 {
-    line-height: 20px;
     margin-bottom: 20px;
+}
+
+.icona {
+    margin-bottom: 15px;
 }
 
 .button-prova > button {
@@ -164,11 +176,16 @@ in base alla grafica (sx 30% e dx 70%)
     margin-right: 90px;
 }
 
-.p-salienti {
-    line-height: 25px;
-    padding-top: 10px;
+.salienti {
+    margin-bottom: 20px;
 }
 
+.fa-check {color: #0061ff;}
+
+#contattaci {
+    padding: 5px 35px;
+    align-items: center;
+}
 
 
 
@@ -319,3 +336,11 @@ footer {
 .font11 {
     font-size: 11px;
 }
+
+.no-s {
+    list-style: none;
+    text-align: left;
+}
+
+/* padding */
+.p-top10 {padding-top: 10px;}
